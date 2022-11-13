@@ -50,31 +50,27 @@ function showWeatherReport(weather){
     
     if(weatherType.textContent == 'Clear') {
         document.body.style.backgroundImage = "url('images/clear.jpg')";
-        
-    } else if(weatherType.textContent == 'Clouds') {
-
+    } 
+    else if(weatherType.textContent == 'Clouds') {
         document.body.style.backgroundImage = "url('images/cloud.jpg')";
-        
-    } else if(weatherType.textContent == 'Haze') {
-
-        document.body.style.backgroundImage = "url('images/cloud.jpg')";
-        
-    }     else if(weatherType.textContent == 'Rain') {
-        
+    } 
+    else if(weatherType.textContent == 'Haze') {
+        document.body.style.backgroundImage = "url('images/fog.jpg')";
+    }     
+    else if(weatherType.textContent == 'fog') {
+        document.body.style.backgroundImage = "url('images/haze.jpg')";
+    }     
+    else if(weatherType.textContent == 'Rain') {
         document.body.style.backgroundImage = "url('images/rain.jpg')";
-        
-    } else if(weatherType.textContent == 'Snow') {
-        
+    } 
+    else if(weatherType.textContent == 'Snow') {
         document.body.style.backgroundImage = "url('images/snow.jpg')";
-    
-    } else if(weatherType.textContent == 'Thunderstorm') {
-    
+    } 
+    else if(weatherType.textContent == 'Thunderstorm') {
         document.body.style.backgroundImage = "url('images/thunderstorm.jpg')";
     } 
     else if(weatherType.textContent == 'Smoke'){
       document.body.style.backgroundImage = "url('images/smoke.jpg')";
-      let va = document.getElementById('imgs');
-      va.innerHTML = `<img src="images/sunnyIcon.jpg" alt="lm">`;
     }
 }
 
