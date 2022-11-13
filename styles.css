@@ -52,7 +52,7 @@ body {
     background-color: rgba(240, 220, 220, 0.6);
     border-radius: 50px;
     color: #582233;
-    padding: 2rem;
+    padding: 5rem 2rem 2rem 2rem;
     margin: 0;
     line-height: 2rem;
     height: 50vh;
@@ -90,8 +90,4 @@ body {
     /* justify-content: center; */
     /* padding: 0; */
     /* margin: 0rem auto; */
-}
-
-#imgs img{
-    
 }
